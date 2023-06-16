@@ -1,0 +1,156 @@
+.flexcenter {
+  display: flex;
+  align-items: baseline;
+  gap: 1%;
+}
+.topStick {
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 99;
+}
+.searchInput {
+  /* width: 60%;
+    padding: 1%; */
+  margin: 2%;
+  border-radius: 6rem;
+  border: 1px solid gainsboro;
+  outline: none;
+  box-shadow: 0 0 8px 1px #bebeff63;
+  margin-bottom: 0;
+}
+.genreMenu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  max-height: 350px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+background: white;
+z-index: 99;
+  padding: 1%;
+}
+.genreMenu::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.genreMenu::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.genreMenu::-webkit-scrollbar-thumb {
+  background: #93b3ff;
+}
+
+/* Handle on hover */
+.genreMenu:-webkit-scrollbar-thumb:hover {
+  background: #93b3ff;
+}
+.genreMenu button {
+  width: 140px;
+  padding: 9%;
+  background: #ffffff;
+  margin: 2%;
+  border: 1px solid gainsboro;
+  outline: none;
+  box-shadow: 0 0 8px 1px #bebeff63;
+  color: black;
+  font-weight: 200;
+}
+.genreMenu button:hover {
+  color: rgb(255, 255, 255);
+  background: #93b3ff;
+}
+.genreButton {
+  width: 140px;
+  padding: 9%;
+  background: #93b3ff;
+  margin: 2%;
+  border-radius: 6rem;
+  border: 1px solid gainsboro;
+  outline: none;
+  box-shadow: 0 0 8px 1px #bebeff63;
+  color: white;
+  font-size: 22px;
+  letter-spacing: 10px;
+  font-weight: 600;
+}
+.sortButton {
+  width: 154px;
+  padding: 4% 0;
+  background: #93b3ff;
+  margin: 2%;
+  border-radius: 6rem;
+  border: 1px solid gainsboro;
+  outline: none;
+  box-shadow: 0 0 8px 1px #bebeff63;
+  color: white;
+  font-size: 20px;
+}
+.searchSuggestion {
+  margin: 0 3%;
+  background: white;
+  max-height: 350px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  box-shadow: 0 0 9px #b9b9b9;
+  margin-bottom: 3%;
+}
+.searchSuggestion p {
+  margin: 1%;
+  padding: 1%;
+}
+.searchContainer {
+  width: 60%;
+}
+.searchBtn {
+  width: 100%;
+  background: transparent;
+  border: none;
+  margin: 1%;
+  padding: 1%;
+  border-bottom: 1px solid gainsboro;
+  text-align: left;
+}
+.cardBox {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1%;
+  align-items: center;
+  justify-content: center;
+}
+.cardContainer {
+    border: 1px solid gainsboro;
+    padding: 1%;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    box-shadow: 0 0 9px gainsboro;
+position: relative;
+}
+.cardContainer button{
+    position: absolute;
+    bottom: 10%;
+    width: 90%;
+    padding: 2%;
+    border-radius: 10px;
+    border: 1px solid #93b3ff;
+    background: #f2f6ff;
+}
+.cardContainer p {
+  font-size: 24px;
+  font-weight: 600;
+}
+.genreSpan{
+    width: fit-content;
+    background: red;
+    padding: 1% 4%;
+    border-radius: 23px;
+    margin-bottom: 10px;
+    color: white;
+}

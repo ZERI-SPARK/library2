@@ -1,0 +1,87 @@
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+.relative {
+  position: relative;
+  width: 50%;
+  overflow: hidden;
+}
+input{
+  padding: 2%;
+  width: 92%;
+  margin: 5% 0;
+  border: none;
+  border-bottom: 1px solid;
+  outline: none;
+  background: transparent;
+
+}
+.formbutton{
+  
+  width: 50%;
+  padding: 2%;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: none;
+  background: #aae6e6;
+  font-weight: 900;
+  font-size: 20px;
+  letter-spacing: 9px;
+  width: 95%;
+
+}
+.absoluteText {
+  position: absolute;
+  background: #aae6e6;
+  width: 100%;
+  height: 67%;
+  transition: 0.3s ease-in;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10% 0;
+  border-radius: 11px;
+  box-shadow: inset 1px 0px 16px 0px #153f3f;
+  overflow: hidden;
+  color: #000000;
+  text-align: center;
+  justify-content: center;
+}
+.absoluteText button{
+  width: 40%;
+  height: 40px;
+  margin: 6%;
+  background: linear-gradient(45deg, #293e26, #aae6e6);
+  color: white;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 0 9px #7e7e7e;
+  cursor: pointer;
+
+}
+.height100{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 7%;
+    padding: 10%;
+}
+.mainContainer {
+    background: rgb(130 130 130 / 0%);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 4%;
+    width: 75%;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 0 8px 0px #aae6e6;
+    margin: 2% auto;
+
+}
+.backGroundDiv{
+    width: 100%;
+    height: 100%;
+    height: 100vh;
+    display: grid;
+    background-image: url('/minbg.avif');
+}
